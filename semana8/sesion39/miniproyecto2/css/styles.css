@@ -1,0 +1,37 @@
+body{
+    padding:2%;
+    color:black;
+     max-width: 900px;
+     margin: 0 auto;
+     background-color:#ed917d
+
+}
+ div{
+    display:flex;
+    flex-flow:row wrap;
+    
+ }
+ .field,
+textarea {
+    margin:0 0.5em 1em 0;
+    padding: 0.5em 1em;
+    border:1px solid #ccc;
+    }
+
+.field{
+    width:45%;
+    flex:1 0 40%;
+}
+
+teterea{
+    width:90%;
+    flex:1 0 90%
+}
+.button{
+    padding: 5%;
+    border: 1px solid #ccc;
+    background: color #e48236; ;
+    color:#fff;
+}
+
+
